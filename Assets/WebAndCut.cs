@@ -6,8 +6,8 @@ public class WebAndCut : MonoBehaviour
 {
     private LineRenderer _lineRenderer;
     private List<WebPoints> _webPoints = new List<WebPoints>();
-    private float _webLength = .35f;
-    private int _pointLength = 20;
+    private float _webLength = .15f;
+    private int _pointLength = 50;
     private float _lineRendererWidth  = .1f;
 
     private Vector2 constPointOne;
